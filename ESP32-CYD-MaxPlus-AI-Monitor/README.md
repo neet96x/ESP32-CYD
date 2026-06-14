@@ -2,6 +2,8 @@
 
 โปรเจคนี้เป็นเฟิร์มแวร์สำหรับบอร์ด **ESP32-2432S028R / CYD (Cheap Yellow Display)** ใช้เป็นหน้าจอมอนิเตอร์เครดิตของ MaxPlus AI และรับข้อความแจ้งเตือนผ่าน MQTT เพื่อแสดงบนจอ TFT ขนาด 320x240 พิกเซล
 
+![MaxPlus AI Monitor](MaxPlus-AI-Monitor.jpg)
+
 ## ความสามารถหลัก
 
 - เชื่อมต่อ WiFi และแสดงสถานะ IP / NO WIFI บนหน้าจอ
