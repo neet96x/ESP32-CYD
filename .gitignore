@@ -1,0 +1,62 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.pioinit
+libdeps/
+
+# Arduino / ESP32 build output
+build/
+build-*/
+*.bin
+*.elf
+*.hex
+*.map
+*.lst
+*.o
+*.d
+*.a
+*.core
+*.partitions.bin
+*.bootloader.bin
+
+# Local secrets and device config
+.env
+.env.*
+!.env.example
+secrets.h
+Secrets.h
+secret.h
+config.local.h
+wifi_credentials.h
+credentials.h
+arduino_secrets.h
+
+# Python helper scripts
+__pycache__/
+*.py[cod]
+*.pyo
+.python-version
+.venv/
+venv/
+env/
+
+# Editors and IDEs
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
+
+# Local backups
+**/.codex_backups/

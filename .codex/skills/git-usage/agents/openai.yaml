@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Usage"
+  short_description: "Safe Git commits, remotes, and pushes"
+  default_prompt: "Use $git-usage to prepare, commit, and push this repository safely."
